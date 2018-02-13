@@ -22,3 +22,23 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    flex: 1 0 30%;
+    border: 3px #000000 solid;
+    margin: 5px;
+}
+
+
+
+.listing-title {
+    text-align: center;
+    height: 30px;
+}
